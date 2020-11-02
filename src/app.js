@@ -5,6 +5,7 @@ const forecast = require("./utils/forecast");
 const geocode = require("./utils/geocode");
 
 const app = express();
+const name = "Eli Shafer";
 const port = process.env.PORT || 3000;
 
 // Define paths for Express config
